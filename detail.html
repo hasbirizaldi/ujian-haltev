@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fab fa-shopify fa-bounce"></i> TokoKu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Dashboard</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Kategori </a>
+              <ul class="dropdown-menu pink">
+                <li><a class="dropdown-item" href="#">Elektronik</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Pria</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Wanita</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Anak</a></li>
+                <li><a class="dropdown-item" href="#">Makanan & Minuman</a></li>
+                <li><a class="dropdown-item" href="#">Buku</a></li>
+                <li><a class="dropdown-item" href="#">Olahraga</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Kategori Lain</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i> Keranjang Anda</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-5" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pencarian..." aria-label="Search" />
+            <button class="btn btn-outline-light text-light buton-cari" type="submit">Cari</button>
+          </form>
+          <a href="login.html" class="btn btn-outline-light ms-auto buton-cari">Login <i class="fas fa-sign-in-alt"></i></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <div class="container detail mb-5">
+      <div class="row">
+        <div class="col-md-5 image-detail">
+          <img src="img/produk/pakaian-pria.jpg" alt="" />
+        </div>
+        <div class="col-md-7 batik-detail">
+          <h1>Kemeja Batik Pria</h1>
+          <p><i class="fas fa-map-marker-alt"></i> Jakarta Utara</p>
+          <p><i class="fas fa-star"></i> 4.2 | Terjual 4rb+</p>
+          <h2>Rp. 150.000,-</h2>
+          <br />
+          <h5>Pilih Ukuran</h5>
+          <div class="ukuran">
+            <a href=""><div class="s">S</div></a>
+            <a href=""><div class="m">M</div></a>
+            <a href=""><div class="l">L</div></a>
+            <a href=""><div class="xl">XL</div></a>
+          </div>
+          <div class="tombol-beli">
+            <a href="" class="btn btn-success beli">Beli Sekarang</a> &nbsp;&nbsp;<a href="" class="btn btn-warning keranjang"><i class="fas fa-cart-plus"></i> Masukan Keranjang</a>
+          </div>
+        </div>
+        <div class="row detail-produk">
+          <div class="col">
+            <h4>Detail Produk</h4>
+            <hr />
+            <ul>
+              <li>Kondisi: Baru</li>
+              <li>Berat Satuan: 200 gram</li>
+              <li>Kategori: Pakaian Pria</li>
+              <li>Bahan adem nyaman digunakan</li>
+              <li>1 kantong depan</li>
+              <li>Kancing depan</li>
+            </ul>
+            <div class="size-s">
+              <h5>Size S</h5>
+              <p>Lebar Dada 42cm</p>
+              <p>Panjang: 50cm</p>
+              <p>Bahan: Katun adem</p>
+            </div>
+            <div class="size-m">
+              <h5>Size M</h5>
+              <p>Lebar Dada 52cm</p>
+              <p>Panjang: 60cm</p>
+              <p>Bahan: Katun adem</p>
+            </div>
+            <div class="size-l">
+              <h5>Size L</h5>
+              <p>Lebar Dada 62cm</p>
+              <p>Panjang: 70cm</p>
+              <p>Bahan: Katun adem</p>
+            </div>
+            <div class="size-xl">
+              <h5>Size XL</h5>
+              <p>Lebar Dada 72cm</p>
+              <p>Panjang: 80cm</p>
+              <p>Bahan: Katun adem</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="fixed-bottom bg-light">
+        <p class="text-center">
+          Copyrigt 2023 | Created By <a target="_blank" href="https://hasbirizaldi.github.io/MyPortfolio/"><i class="fab fa-pagelines"></i> Hasbi Rizaldi</a>
+        </p>
+      </footer>
+    </div>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/7caf5d91f7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
