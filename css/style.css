@@ -4,9 +4,6 @@
   background-color: ivory;
 }
 
-.navbar {
-  border-bottom: 3px solid rgb(218, 199, 32);
-}
 .navbar .navbar-brand {
   font-size: 24px;
   font-weight: bold;
@@ -35,13 +32,16 @@
   background-color: rgb(232, 236, 232);
   position: relative;
 }
-.card {
+.card-image {
   margin-bottom: 30px;
   text-shadow: 12em;
   font-family: "Signika", sans-serif;
+  width: 17rem;
+  text-align: center;
 }
 .card-animation:hover {
   transform: scale(1.02);
+  transition: 0.5s;
 }
 .card-animation {
   background-color: bisque;
@@ -193,6 +193,7 @@ footer p a {
 }
 hr {
   color: goldenrod;
+  width: 400px;
 }
 .container .row .detail-produk .size-s {
   margin-left: 36px;
@@ -224,10 +225,78 @@ hr {
 .buton-cari {
   font-family: "Signika", sans-serif;
 }
+.buton-cari:hover {
+  background-color: bisque;
+}
 .pink {
   background-color: bisque;
 }
 .dropdown-menu a:hover {
   color: white;
   background-color: rgb(58, 124, 69);
+}
+.b-kolor {
+  background-color: rgb(58, 124, 69);
+}
+@media only screen and (max-width: 1460px) {
+  .card-image {
+    width: 15rem;
+  }
+  .card img {
+    width: 14rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .card-image {
+    width: 24rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 18rem;
+    margin: auto;
+  }
+  .cari {
+    margin-bottom: 20px;
+  }
+  .kategori {
+    display: none;
+    visibility: hidden;
+  }
+  .detail-produk {
+    margin-top: 30px;
+    padding-right: 100px;
+  }
+  .container .row .detail-produk .size-s {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-s p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-m {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-m p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-l {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-l p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-xl {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-xl p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .h4 {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk ul li {
+    display: inline-flex;
+    padding-left: 40pxpx;
+  }
 }
