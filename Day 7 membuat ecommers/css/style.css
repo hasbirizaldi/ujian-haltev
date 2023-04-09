@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&family=Signika:wght@300;400;700&display=swap");
+
+.container-fluid {
+  background-color: ivory;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(238, 255, 0);
+  font-family: "Pacifico", cursive;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.2);
+}
+.navbar .nav-link {
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: "Signika", sans-serif;
+}
+.navbar .navbar-brand .fa-shopify {
+  color: rgb(202, 191, 35);
+  font-size: 40px;
+}
+.carousel {
+  border-bottom: 3px solid rgb(218, 199, 32);
+}
+.carousel .carousel-indicators button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(232, 236, 232);
+  position: relative;
+}
+.card-image {
+  margin-bottom: 30px;
+  text-shadow: 12em;
+  font-family: "Signika", sans-serif;
+  width: 17rem;
+  text-align: center;
+}
+.card-animation:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+.card-animation {
+  background-color: bisque;
+}
+.row .card .card-body .fa-map-marker-alt {
+  color: dodgerblue;
+}
+.row .card .card-body .fa-star {
+  color: gold;
+}
+.row .card .card-body .tombol-keranjang {
+  color: white;
+}
+.row .card .card-body .tombol-keranjang:hover {
+  transform: scale(1.04);
+}
+.row .card .card-body .tombol-detail:hover {
+  transform: scale(1.04);
+}
+.card img {
+  width: 16rem;
+  margin: 8px;
+}
+.konten .row .kategori {
+  background-color: rgb(58, 124, 69);
+  border: 3px solid goldenrod;
+}
+.konten .row .kategori h3 {
+  background-color: bisque;
+  margin-top: 10px;
+  padding: 15px;
+  color: rgb(58, 124, 69);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Acme", sans-serif;
+  border-radius: 5px;
+}
+.konten .row .kategori ul {
+  border-radius: 5px;
+}
+.konten .row .kategori ul li {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Acme", sans-serif;
+}
+.konten .row .kategori ul li a {
+  color: rgb(58, 124, 69);
+  text-decoration: none;
+}
+.konten .row .kategori ul li a:hover {
+  font-weight: bold;
+}
+
+.konten .row .kategori ul li :hover {
+  color: goldenrod;
+  text-decoration: none;
+  transition: 0.1s;
+}
+footer {
+  height: 30px;
+}
+footer p {
+  font-size: 12px;
+  font-family: "Acme", sans-serif;
+}
+footer p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: salmon;
+}
+.kotak,
+.list-group-item {
+  background-color: rgb(241, 239, 235);
+}
+.detail {
+  border: 1px solid goldenrod;
+  background-color: aliceblue;
+  padding-bottom: 25px;
+  font-family: "Signika", sans-serif;
+}
+.container .row .image-detail img {
+  width: 400px;
+  margin: 50px;
+  border: 2px solid goldenrod;
+}
+.container .row .image-detail img:hover {
+  transform: scale(1.07);
+}
+.container .row .batik-detail {
+  margin-top: 40px;
+}
+.container .row .batik-detail .fa-map-marker-alt {
+  color: rgb(97, 157, 248);
+}
+.container .row .batik-detail .fa-star {
+  color: goldenrod;
+}
+.container .row .batik-detail .ukuran a {
+  margin-top: 10px;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 50px;
+}
+.container .row .batik-detail .ukuran .s,
+.container .row .batik-detail .ukuran .m,
+.container .row .batik-detail .ukuran .l,
+.container .row .batik-detail .ukuran .xl {
+  margin-right: 5px;
+  background-color: rgb(224, 204, 204);
+  width: 40px;
+  height: 40px;
+  font-weight: 400;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-top: 7px;
+  border: 1px solid goldenrod;
+}
+.container .row .batik-detail .ukuran .s:hover,
+.container .row .batik-detail .ukuran .m:hover,
+.container .row .batik-detail .ukuran .l:hover,
+.container .row .batik-detail .ukuran .xl:hover {
+  transform: scale(1.07);
+  transition: 0.2s;
+  color: white;
+  background-color: goldenrod;
+}
+.container .row .detail-produk {
+  margin-left: 60px;
+}
+
+.container .row .batik-detail .tombol-beli .beli:hover {
+  transform: scale(1.05);
+  background-color: darkgreen;
+  color: white;
+}
+
+.container .row .batik-detail .tombol-beli .keranjang:hover {
+  background-color: goldenrod;
+  color: white;
+  transform: scale(1.05);
+}
+.container .row .detail-produk ul {
+  list-style-type: none;
+}
+.container .row .detail-produk ul li {
+  margin-bottom: 5px;
+}
+hr {
+  color: goldenrod;
+  width: 400px;
+}
+.container .row .detail-produk .size-s {
+  margin-left: 36px;
+}
+.container .row .detail-produk .size-s p {
+  margin-bottom: 5px;
+}
+.container .row .detail-produk .size-m {
+  margin-left: 36px;
+}
+.container .row .detail-produk .size-m p {
+  margin-bottom: 5px;
+}
+.container .row .detail-produk .size-l {
+  margin-left: 36px;
+}
+.container .row .detail-produk .size-l p {
+  margin-bottom: 5px;
+}
+.container .row .detail-produk .size-xl {
+  margin-left: 36px;
+}
+.container .row .detail-produk .size-xl p {
+  margin-bottom: 5px;
+}
+.bg {
+  background-color: bisque;
+}
+.buton-cari {
+  font-family: "Signika", sans-serif;
+}
+.buton-cari:hover {
+  background-color: bisque;
+}
+.pink {
+  background-color: bisque;
+}
+.dropdown-menu a:hover {
+  color: white;
+  background-color: rgb(58, 124, 69);
+}
+.b-kolor {
+  background-color: rgb(58, 124, 69);
+}
+@media only screen and (max-width: 1460px) {
+  .card-image {
+    width: 15rem;
+  }
+  .card img {
+    width: 14rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .card-image {
+    width: 24rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 18rem;
+    margin: auto;
+  }
+  .cari {
+    margin-bottom: 20px;
+  }
+  .kategori {
+    display: none;
+    visibility: hidden;
+  }
+  .detail-produk {
+    margin-top: 30px;
+    padding-right: 100px;
+  }
+  .container .row .detail-produk .size-s {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-s p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-m {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-m p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-l {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-l p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .size-xl {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk .size-xl p {
+    margin-bottom: 5px;
+  }
+  .container .row .detail-produk .h4 {
+    margin-left: 40px;
+  }
+  .container .row .detail-produk ul li {
+    display: inline-flex;
+    padding-left: 40pxpx;
+  }
+}

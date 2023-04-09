@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg b-kolor navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fab fa-shopify fa-bounce"></i> TokoKu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Dashboard</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Kategori </a>
+              <ul class="dropdown-menu pink">
+                <li><a class="dropdown-item" href="#">Elektronik</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Pria</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Wanita</a></li>
+                <li><a class="dropdown-item" href="#">Pakaian Anak</a></li>
+                <li><a class="dropdown-item" href="#">Makanan & Minuman</a></li>
+                <li><a class="dropdown-item" href="#">Buku</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Olahraga</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Kategori Lain</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-cart-plus"></i> Keranjang Anda</a>
+            </li>
+          </ul>
+          <form class="d-flex cari" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pencarian..." aria-label="Search" />
+            <button class="btn btn-outline-light buton-cari btn-sm" type="submit">Cari</button>
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="login.html" class="btn btn-outline-light ms-auto buton-cari btn-sm">Login <i class="fas fa-sign-in-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <div class="container-fluid mb-5 mt-1">
+      <div class="konten">
+        <div class="row">
+          <!-- Menu Kategory -->
+          <div class="col-md-3 kategori mt-1">
+            <div class="">
+              <h3 class="mb-3">Kategori</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-laptop"></i> Elektronik</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-tshirt"></i> Pakaian Pria</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-tshirt"></i> Pakaian Wanita</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-tshirt"></i> Pakaian Anak</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-utensils"></i> Makanan & Minuman</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-book"></i> Buku</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""><i class="fas fa-futbol"></i> Olahraga</a>
+              </li>
+              <li class="list-group-item"><a href="Kategori Lainya"></a></li>
+            </ul>
+          </div>
+          <!-- Akhir Menu kategory -->
+          <!-- Carousel -->
+          <div class="col-md-9 mt-1">
+            <div id="carouselExampleCaptions" class="carousel slide shadow">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img height="300px" src="img/carosel1.jpg" class="d-block w-100 gambar" alt="..." />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img height="300px" src="img/arosel2.jpg" class="d-block w-100 gambar" alt="..." />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img height="300px" src="img/carousel4.jpg" class="d-block w-100 gambar" alt="..." />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Akhir Carousel -->
+
+            <div class="row mt-4">
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/pakaian-pria.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Kemeja Batik Pria</h4>
+                    <h5>Rp. 150.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Jakarta Utara</p>
+                    <p><i class="fas fa-star"></i> 4.2 | Terjual 4rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/pakaian-wanita.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Pakaian Wanita Syari</h4>
+                    <h5>Rp. 400.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Surabaya</p>
+                    <p><i class="fas fa-star"></i> 4.0 | Terjual 2rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/olahraga.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Jersey Liverpool 2022</h4>
+                    <h5>Rp. 150.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Yogyakarta</p>
+                    <p><i class="fas fa-star"></i> 4.5 | Terjual 8rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/buku.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Buku Selamat Tinggal</h4>
+                    <h5>Rp. 300.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung</p>
+                    <p><i class="fas fa-star"></i> 4.4 | Terjual 6rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/pakaian-wanita.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Baju Gamis Wanita</h4>
+                    <h5>Rp. 250.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Bekasi</p>
+                    <p><i class="fas fa-star"></i> 3.9 | Terjual 10rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/olahraga.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Jersey Bola Liverpool</h4>
+                    <h5>Rp. 300.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung</p>
+                    <p><i class="fas fa-star"></i> 4.9 | Terjual 61rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/pakaian anak.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Pakaian Anak Lucu</h4>
+                    <h5>Rp. 100.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung</p>
+                    <p><i class="fas fa-star"></i> 4.4 | Terjual 2rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card card-image shadow card-animation">
+                  <img src="img/produk/buku.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h4 class="card-title">Buku Selamat Tinggal</h4>
+                    <h5>Rp. 300.000,-</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung</p>
+                    <p><i class="fas fa-star"></i> 4.4 | Terjual 6rb+</p>
+                    <a href="#" class="btn btn-sm btn-warning tombol-keranjang"><i class="fa fa-shopping-cart"></i> Masukan Keranjang</a>
+                    <a href="detail.html" class="btn btn-sm btn-success tombol-detail">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example mt-5 ml-5 mb-3">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="fixed-bottom bg-light">
+        <p class="text-center">
+          Copyrigt March 2023 | Created By <a target="_blank" href="https://hasbirizaldi.github.io/MyPortfolio/"> <i class="fab fa-pagelines"></i> Hasbi Rizaldi</a>
+        </p>
+      </footer>
+    </div>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/7caf5d91f7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
